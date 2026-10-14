@@ -1,5 +1,7 @@
 package com.netflix;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Netflix 2.0");
@@ -40,5 +42,10 @@ public class Main {
 
         System.out.println("Watching Time per Month: " + hoursPerMonth + " hours");
         System.out.println("Fun Fact: " + funFact);
+
+        ArrayList<String> movies = new ArrayList<>();
+        movies.add("Nightmare Before Christmas");
+        movies.add("Coraline");
+        System.out.println(movies);
     }
 }
